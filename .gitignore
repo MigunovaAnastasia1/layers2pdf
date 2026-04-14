@@ -1,0 +1,10 @@
+# Krita файлы
+*.kra
+*.kra~
+*.kra.bak
+
+# Папка с PDF
+PDFs/
+
+# Python виртуальное окружение
+venv/
