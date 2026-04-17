@@ -16,7 +16,7 @@ class Layers2PDF(Extension):
         pass
         
     def createActions(self, window):
-        action = window.createAction("layers_to_pdf", "My export PDF plugin")
+        action = window.createAction("layers_to_pdf", "Export Layers to PDF")
         action.triggered.connect(self.export_layers_to_pdf)
     
     def select_layers_by_sequence(self, nodes):
